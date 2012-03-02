@@ -32,3 +32,8 @@ At the moment there's a implementation for Connect/Express that includes a middl
 			}
 	  })
 	};
+
+Why re-invent the wheel? Aren't there 10s of FB libraries for Node?
+=========
+Yes but they are all either very different from the PHP sdk most developers are used to or lack features.
+For example because this code is based on the awesome Restler library we can do file uploads (upload photos, videos, etc) with relative ease
